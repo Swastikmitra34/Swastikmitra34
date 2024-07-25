@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-# profile
+# Profile
 # Swastik Mitra - Quantitative Analyst/Mathematician
 
 Welcome to my GitHub profile! Here you'll find my projects and contributions related to quantitative analysis, artificial intelligence and actuarial science.
@@ -40,7 +40,7 @@ $$
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" alt="Python" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" height="50">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfUYe1tSOIsRIhH6sLXqrqDoZHAKzzgE-lw&s" alt="Scikit-learn" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" height="50">
@@ -52,8 +52,11 @@ $$
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" alt="OpenCV" height="50">
   <img src="https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png" alt="Jupyter" height="50">
   <img src="https://seeklogo.com/images/P/pytorch-logo-84F95D0AF5-seeklogo.com.png" alt="PyTorch" height="50">
+  <img src="https://t3.ftcdn.net/jpg/04/36/20/28/360_F_436202824_9jWSKpjDrITJIVmkdBedp707rF5wLSjK.jpg" height="50">
+  <img src="https://audioboom.com/i/35708601/600" height="50">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/800px-IIT_Madras_Logo.svg.png" height="50">
+  
 </p>
-<img src="https://t3.ftcdn.net/jpg/04/36/20/28/360_F_436202824_9jWSKpjDrITJIVmkdBedp707rF5wLSjK.jpg" height="50">
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Swastikmitra34.your-repo)
 
