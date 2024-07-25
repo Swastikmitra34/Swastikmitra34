@@ -16,7 +16,10 @@ $$
 <div align="center">
   <img src="https://i.pinimg.com/originals/aa/e5/bc/aae5bc56711d59c0b490b07b3d386fa4.gif" alt="Animated Welcome" width="150">
 </div>
-And the solution for a European call option price \( C \) is given by:
+
+
+And the solution for a European call option price  c(s,t) is given by:
+
 
 $$
 C(S, t) = S_0 \Phi(d_1) - K e^{-r(T-t)} \Phi(d_2)
