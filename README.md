@@ -1,108 +1,100 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Quant Researcher | Interactive Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body class="bg-gray-950 text-white font-sans">
 
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-4">
+    <h1 class="text-5xl font-bold text-blue-400 mb-4">AI / Quant Researcher</h1>
+    <p class="text-xl text-gray-300 max-w-2xl mx-auto">Exploring the synergy between stochastic calculus and generative AI for advanced video generation models.</p>
+  </section>
 
-# Profile
-# Swastik Mitra - Quantitative Analyst/Mathematician
+  <!-- Tool Icons -->
+  <section class="py-10 px-4">
+    <h2 class="text-3xl text-center mb-6 font-semibold text-purple-400">🛠️ Core Tools</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
+        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" class="w-12 h-12 mx-auto mb-2" />
+        <p>TensorFlow</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
+        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" class="w-12 h-12 mx-auto mb-2" />
+        <p>PyTorch</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
+        <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" class="w-12 h-12 mx-auto mb-2" />
+        <p>NumPy</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
+        <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" class="w-12 h-12 mx-auto mb-2" />
+        <p>OpenCV</p>
+      </div>
+    </div>
+  </section>
 
-Welcome to my GitHub profile! Here you'll find my projects and contributions related to quantitative analysis, artificial intelligence and actuarial science.
+  <!-- Black-Scholes Formula -->
+  <section class="py-16 px-6 bg-gray-900 mt-10">
+    <h2 class="text-3xl mb-4 text-cyan-300">📈 Black-Scholes Equation</h2>
+    <p class="mb-4 text-gray-300">Used in option pricing, this PDE forms the base for stochastic modelling:</p>
+    <div class="bg-gray-800 p-6 rounded-xl overflow-auto">
+      <p class="text-lg text-white">
+        $$\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0$$
+      </p>
+    </div>
+  </section>
 
-## Black-Scholes Equation
+  <!-- Stochastic Calculus Explanation -->
+  <section class="py-16 px-6">
+    <h2 class="text-3xl mb-4 text-emerald-300">📚 Stochastic Calculus in Generative AI</h2>
+    <p class="text-gray-300 mb-6 max-w-3xl">
+      Stochastic differential equations (SDEs), particularly Itô calculus, help model noise, randomness, and dynamic evolution in AI systems.
+      In video generation models (e.g., diffusion models), the reverse-time SDE is learned to generate realistic frames from noise.
+    </p>
+    <div class="bg-gray-800 p-6 rounded-xl">
+      <p class="text-lg">
+        $$dX_t = \mu(X_t, t)dt + \sigma(X_t, t)dW_t$$
+      </p>
+    </div>
+  </section>
 
-The Black-Scholes partial differential equation is:
+  <!-- Video Generation Model -->
+  <section class="py-16 px-6 bg-gray-900">
+    <h2 class="text-3xl mb-4 text-pink-400">🎥 AI Video Generation Model</h2>
+    <p class="text-gray-300 mb-6 max-w-3xl">
+      Our generative pipeline leverages stochastic sampling and variational methods for producing temporally consistent and semantically rich video. Tools like Latent Diffusion, GANs, and Transformers are combined.
+    </p>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-800 p-6 rounded-xl">
+        <h3 class="text-xl text-white mb-2">Model Pipeline</h3>
+        <ul class="list-disc list-inside text-gray-300">
+          <li>Text-to-Latent Embedding (CLIP/BERT)</li>
+          <li>Stochastic Video Diffusion (Reverse SDE)</li>
+          <li>Temporal Consistency Filter</li>
+          <li>Neural Rendering</li>
+        </ul>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl">
+        <h3 class="text-xl text-white mb-2">Equations in Play</h3>
+        <p>
+          $$ \nabla_{\theta} \mathbb{E}_{q(x_t|x_0)}[\log p_\theta(x_{t-1}|x_t)] $$
+        </p>
+        <p class="text-gray-400 text-sm mt-2">Gradient of ELBO for denoising steps in diffusion models.</p>
+      </div>
+    </div>
+  </section>
 
-$$
-\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + r S \frac{\partial V}{\partial S} - r V = 0
-$$
-<div align="center">
-  <img src="https://i.pinimg.com/originals/aa/e5/bc/aae5bc56711d59c0b490b07b3d386fa4.gif" alt="Animated Welcome" width="150">
-</div>
+  <!-- Footer -->
+  <footer class="py-10 text-center text-gray-500">
+    Made with ❤️ by a Quant-AI Researcher | <a href="#" class="underline hover:text-white">GitHub</a>
+  </footer>
 
-
-And the solution for a European call option price  c(s,t) is given by:
-
-
-$$
-C(S, t) = S_0 \Phi(d_1) - K e^{-r(T-t)} \Phi(d_2)
-$$
-
-where
-
-$$
-d_1 = \frac{\ln\left(\frac{S_0}{K}\right) + \left(r + \frac{\sigma^2}{2}\right)(T-t)}{\sigma \sqrt{T-t}}
-$$
-
-and
-
-$$
-d_2 = d_1 - \sigma \sqrt{T-t}
-$$
-
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" alt="Python" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" height="50">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfUYe1tSOIsRIhH6sLXqrqDoZHAKzzgE-lw&s" alt="Scikit-learn" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" height="50">
-  <img src="https://user-images.githubusercontent.com/50221806/86498201-a8bd8680-bd39-11ea-9d08-66b610a8dc01.png" alt="numpy" height="50">
-  <img src="https://geo-python-site.readthedocs.io/en/stable/_images/pandas_logo.png" alt="Pandas" height="50">
-  <img src="https://studyopedia.com/wp-content/uploads/2023/07/scipy.png" alt="SciPy" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" height="50">
-  <img src="https://cdn.vectorstock.com/i/500p/96/95/cloud-iot-internet-of-things-icon-vector-22929695.jpg" alt="IoT" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" alt="OpenCV" height="50">
-  <img src="https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png" alt="Jupyter" height="50">
-  <img src="https://seeklogo.com/images/P/pytorch-logo-84F95D0AF5-seeklogo.com.png" alt="PyTorch" height="50">
-  <img src="https://t3.ftcdn.net/jpg/04/36/20/28/360_F_436202824_9jWSKpjDrITJIVmkdBedp707rF5wLSjK.jpg" height="50">
-  <img src="https://audioboom.com/i/35708601/600" height="50">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/800px-IIT_Madras_Logo.svg.png" height="50">
-  
-</p>
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Swastikmitra34.your-repo)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Swastikmitra34&show_icons=true)
-
-### [Financial Risk Model]
-
-### [Financial Risk Model](https://github.com/Swastikmitra34/financial-risk-model)
-A model to assess financial risk using Python.
-
-```python
-
-def create_life_table(age_data, mortality_rates):
-    """
-    Create a basic life table from age data and mortality rates.
-
-    :param age_data: List of ages
-    :param mortality_rates: List of mortality rates corresponding to each age
-    :return: DataFrame containing the life table
-    """
-    # Create an empty DataFrame
-    life_table = pd.DataFrame({'Age': age_data, 'Mortality Rate': mortality_rates})
-    
-    # Calculate qx (probability of death between age x and x+1)
-    life_table['qx'] = life_table['Mortality Rate'].apply(lambda x: x / (1 + x))
-    
-    # Calculate lx (number of people alive at the beginning of each age x)
-    life_table['lx'] = 100000  # Assuming an initial population of 100,000
-    life_table['lx'] = life_table['lx'].shift(1) * (1 - life_table['qx'])
-    life_table['lx'] = life_table['lx'].fillna(100000)
-    
-    # Calculate tx (total number of person-years lived from age x onward)
-    life_table['tx'] = life_table['lx'].cumsum()
-    
-    # Calculate ex (life expectancy at age x)
-    life_table['ex'] = life_table['tx'] / life_table['lx']
-    
-    return life_table
-
-# Example data
-ages = list(range(0, 101))  # Ages from 0 to 100
-mortality_rates = [0.01] * 100 + [0.02]  # Example constant mortality rates
-
-# Create life table
-life_table_df = create_life_table(ages, mortality_rates)
-print(life_table_df.head())
+</body>
+</html>
