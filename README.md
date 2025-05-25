@@ -3,98 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Quant Researcher | Interactive Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script type="text/javascript" id="MathJax-script" async
+  <title>AI × Quant Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
 </head>
-<body class="bg-gray-950 text-white font-sans">
+<body>
+  <header>
+    <h1>AI × Quant Researcher Portfolio</h1>
+    <p>Static Showcase of Tools, Visuals, and Mathematical Foundations</p>
+  </header>
 
-  <!-- Hero Section -->
-  <section class="text-center py-20 px-4">
-    <h1 class="text-5xl font-bold text-blue-400 mb-4">AI / Quant Researcher</h1>
-    <p class="text-xl text-gray-300 max-w-2xl mx-auto">Exploring the synergy between stochastic calculus and generative AI for advanced video generation models.</p>
-  </section>
+  <section class="tools-section">
+    <h2>🔧 AI Tools</h2>
+    <div class="grid-container">
+      <div><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"><p>TensorFlow</p></div>
+      <div><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"><p>PyTorch</p></div>
+      <div><img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg"><p>NumPy</p></div>
+      <div><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg"><p>OpenCV</p></div>
+      <div><img src="https://www.vectorlogo.zone/logos/scikit_learn/scikit_learn-icon.svg"><p>scikit-learn</p></div>
+      <div><img src="https://www.vectorlogo.zone/logos/kerasio/kerasio-icon.svg"><p>Keras</p></div>
+    </div>
 
-  <!-- Tool Icons -->
-  <section class="py-10 px-4">
-    <h2 class="text-3xl text-center mb-6 font-semibold text-purple-400">🛠️ Core Tools</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
-        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" class="w-12 h-12 mx-auto mb-2" />
-        <p>TensorFlow</p>
-      </div>
-      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
-        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" class="w-12 h-12 mx-auto mb-2" />
-        <p>PyTorch</p>
-      </div>
-      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
-        <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" class="w-12 h-12 mx-auto mb-2" />
-        <p>NumPy</p>
-      </div>
-      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform">
-        <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" class="w-12 h-12 mx-auto mb-2" />
-        <p>OpenCV</p>
-      </div>
+    <h2>💹 Quant & Finance Tools</h2>
+    <div class="grid-container">
+      <div><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/QuantLib_logo.svg"><p>QuantLib</p></div>
+      <div><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Excel_2013_logo.svg"><p>Excel</p></div>
+      <div><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Matplotlib_logo.svg"><p>Matplotlib</p></div>
+      <div><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Pandas_logo.svg"><p>Pandas</p></div>
     </div>
   </section>
 
-  <!-- Black-Scholes Formula -->
-  <section class="py-16 px-6 bg-gray-900 mt-10">
-    <h2 class="text-3xl mb-4 text-cyan-300">📈 Black-Scholes Equation</h2>
-    <p class="mb-4 text-gray-300">Used in option pricing, this PDE forms the base for stochastic modelling:</p>
-    <div class="bg-gray-800 p-6 rounded-xl overflow-auto">
-      <p class="text-lg text-white">
-        $$\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0$$
-      </p>
-    </div>
+  <section class="math-section">
+    <h2>📐 Core Math in AI & Quant</h2>
+    <ul>
+      <li><strong>Linear Algebra:</strong> \( \mathbf{y} = \mathbf{W}\mathbf{x} + \mathbf{b} \)</li>
+      <li><strong>Probability:</strong> \( P(x) = \frac{\text{favorable outcomes}}{\text{total outcomes}} \)</li>
+      <li><strong>Bayes Theorem:</strong> \( P(A|B) = \frac{P(B|A) P(A)}{P(B)} \)</li>
+      <li><strong>Gradient Descent:</strong> \( \theta = \theta - \alpha \nabla J(\theta) \)</li>
+      <li><strong>Loss Function (MSE):</strong> \( L = \frac{1}{n} \sum_{i=1}^{n}(y_i - \hat{y}_i)^2 \)</li>
+      <li><strong>Softmax:</strong> \( \sigma(z_i) = \frac{e^{z_i}}{\sum_j e^{z_j}} \)</li>
+      <li><strong>Entropy:</strong> \( H(p) = - \sum_x p(x) \log p(x) \)</li>
+      <li><strong>Black-Scholes PDE:</strong> 
+        \( \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0 \)
+      </li>
+      <li><strong>Itô Process:</strong> \( dX_t = \mu dt + \sigma dW_t \)</li>
+      <li><strong>ELBO in Variational Inference:</strong> 
+        \( \mathbb{E}_{q(z)}[\log p(x|z)] - D_{KL}(q(z)||p(z)) \)</li>
+    </ul>
   </section>
 
-  <!-- Stochastic Calculus Explanation -->
-  <section class="py-16 px-6">
-    <h2 class="text-3xl mb-4 text-emerald-300">📚 Stochastic Calculus in Generative AI</h2>
-    <p class="text-gray-300 mb-6 max-w-3xl">
-      Stochastic differential equations (SDEs), particularly Itô calculus, help model noise, randomness, and dynamic evolution in AI systems.
-      In video generation models (e.g., diffusion models), the reverse-time SDE is learned to generate realistic frames from noise.
-    </p>
-    <div class="bg-gray-800 p-6 rounded-xl">
-      <p class="text-lg">
-        $$dX_t = \mu(X_t, t)dt + \sigma(X_t, t)dW_t$$
-      </p>
-    </div>
-  </section>
-
-  <!-- Video Generation Model -->
-  <section class="py-16 px-6 bg-gray-900">
-    <h2 class="text-3xl mb-4 text-pink-400">🎥 AI Video Generation Model</h2>
-    <p class="text-gray-300 mb-6 max-w-3xl">
-      Our generative pipeline leverages stochastic sampling and variational methods for producing temporally consistent and semantically rich video. Tools like Latent Diffusion, GANs, and Transformers are combined.
-    </p>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="bg-gray-800 p-6 rounded-xl">
-        <h3 class="text-xl text-white mb-2">Model Pipeline</h3>
-        <ul class="list-disc list-inside text-gray-300">
-          <li>Text-to-Latent Embedding (CLIP/BERT)</li>
-          <li>Stochastic Video Diffusion (Reverse SDE)</li>
-          <li>Temporal Consistency Filter</li>
-          <li>Neural Rendering</li>
-        </ul>
-      </div>
-      <div class="bg-gray-800 p-6 rounded-xl">
-        <h3 class="text-xl text-white mb-2">Equations in Play</h3>
-        <p>
-          $$ \nabla_{\theta} \mathbb{E}_{q(x_t|x_0)}[\log p_\theta(x_{t-1}|x_t)] $$
-        </p>
-        <p class="text-gray-400 text-sm mt-2">Gradient of ELBO for denoising steps in diffusion models.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-10 text-center text-gray-500">
-    Made with ❤️ by a Quant-AI Researcher | <a href="#" class="underline hover:text-white">GitHub</a>
+  <footer>
+    <p>© 2025 AI × Quant Static Portfolio | No JS frameworks used.</p>
   </footer>
-
 </body>
 </html>
