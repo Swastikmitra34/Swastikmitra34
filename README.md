@@ -11,10 +11,6 @@
 **Text-to-Video Diffusion Equation**  
 dx = f(x, t)dt + g(t)dw
 
-yaml
-Copy
-Edit
-
 > Describes the continuous stochastic process used in denoising diffusion probabilistic models (DDPMs), the foundation of generative text-to-video AI.
 
 ---
@@ -23,9 +19,6 @@ Edit
 **Generalized Stokes' Theorem**  
 ∫∂M ω = ∫M dω
 
-markdown
-Copy
-Edit
 
 > Unifies Green's, Gauss's, and Stokes' theorems into one elegant identity in differential geometry.  
 Where:  
@@ -39,9 +32,6 @@ Where:
 **Qubit Superposition**  
 |ψ⟩ = α|0⟩ + β|1⟩, with |α|² + |β|² = 1
 
-yaml
-Copy
-Edit
 
 > A qubit exists in a linear combination of `|0⟩` and `|1⟩`, core to quantum parallelism and entanglement.
 
@@ -51,9 +41,6 @@ Edit
 **Black-Scholes Model (SDE form)**  
 dSₜ = μSₜdt + σSₜdWₜ
 
-yaml
-Copy
-Edit
 
 > A stochastic differential equation describing the dynamics of asset prices under geometric Brownian motion, used in options pricing.
 
