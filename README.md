@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Swastik Mitra  
-**AI Researcher | Mathematician | Quantum Computing Enthusiast | Quant**
+**AI Researcher | Math grad | Quantum Computing Enthusiast | Quant**
 
 🚀 My mission: Build Artificial Superintelligence grounded in pure mathematics, quantum theory, and market dynamics.
 
