@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Swastik Mitra  
 **AI Researcher and pure mathematics researcher**
 
-🚀 My mission: Build Artificial Superintelligence grounded in pure mathematics, quantum theory, and market dynamics.
+🚀 My mission: Build Artificial Superintelligence grounded in pure mathematics , quantum theory and core AI research
 
 ---
 
