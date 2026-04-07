@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Swastik Mitra  
-**AI / Pure mathematics researcher**
+**embodied AI Researcher**
 
 
 ---
 
-## 🧠 Key Domains I Work In
+## 🧠 Key Domains I Work In includes dynamical sysmtems 
 
 ### 🧬 Artificial Intelligence  
 **Text-to-Video Diffusion Equation**  
